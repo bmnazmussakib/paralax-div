@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.parallax {
+  /* The image used */
+  background-image: url("https://rare-gallery.com/uploads/posts/730074-Turkey-Flag.jpg");
+
+  /* Set a specific height */
+  min-height: 200px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+	positoin: relative;
+    color: #fff;
+}
+
+.parallax::before {
+	position: absolute !important;
+    content: "" !important;
+    height: 200px !important;
+    width: 100% !important;
+    background: #000 !important;
+    z-index: 1 !important;
+    opacity: 0.5;
+    border-radius: 20px;
+}
+
+.message{
+	padding: 10px 20px;
+    position: relative;
+    z-index: 9;
+    
+}
+
+
+</style>
+</head>
+<body style="background-color:#202124;">
+
+<p>Scroll Up and Down this page to see the parallax scrolling effect.</p>
+
+<div class="parallax">
+<div class="message">
+	<h1>Hello</h1>
+    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,</p>
+</div>
+</div>
+<div style="height:50px;background-color:#202124;font-size:36px; border-radius: 20px"></div>
+<div class="parallax">
+<div class="message">
+	<h1>Hello</h1>
+    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,</p>
+</div>
+</div>
+<div style="height:50px;background-color:#202124;font-size:36px; border-radius: 20px"></div>
+<div class="parallax">
+<div class="message">
+	<h1>Hello</h1>
+    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,</p>
+</div>
+</div>
+<div style="height:50px;background-color:#202124;font-size:36px; border-radius: 20px"></div>
+<div class="parallax">
+<div class="message">
+	<h1>Hello</h1>
+    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,</p>
+</div>
+</div>
+
+</body>
+</html>
